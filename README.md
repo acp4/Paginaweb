@@ -14,11 +14,14 @@
 <ul>
     <li>HTML</li>
     <li>CSS</li>
-    <li>JavaScript</li>
 </ul>
 <h2>Autoría</h2>
 <ol>
-    <li>Michelle</li>
+    <li>Gregorio (Goyo)</li>
+    <li>Omar Michaca</li>
+    <li>Juan Pablo FM</li>
+    <li>Abraham Castillo</li>
+    <li>Michelle Trejo</li>
 </ol>
 <h2>Agradecimientos</h2>
-<p>colocar aqui agradecimientos al equipo</p>
+<p>Gracias a todo el equipo por la buena comunicación y trabajo en equipo</p>
