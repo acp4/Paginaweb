@@ -3,9 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda en línea</title>
+    <title>CH26 Shop</title>
     <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="stylesheet" href="./assets/style/navbar.css">
+    <link rel="stylesheet" href="./assets/style/producto.css">
+    <link rel="icon" href="./assets/img/compuico1.png">
   </head>
   <body>
     <header>
@@ -13,57 +15,187 @@
         <ul>
           <li><a href="./index.html">Inicio</a></li>
           <li><a href="tienda.html">Productos</a></li>
-          <li><a href="conatcto.html">Contacto</a></li>
+          <form action="#" method="get">
+            <input type="search" placeholder="Buscar productos">
+            <button type="submit">Buscar</button>
+          </form>
         </ul>
       </nav>
-      <h1>Tienda en línea</h1>
-      <form action="#" method="get">
-        <input type="search" placeholder="Buscar productos">
-        <button type="submit">Buscar</button>
-      </form>
     </header>
     <main>
       <section>
-        <h2>Nuevos productos</h2>
-        <ul>
-          <li>
+        <h1>Nuevos productos</h1>
+        <div class="product-container">
+          <div class="product-image">
             <a href="#">
-              <img src="product1.jpg" alt="Producto 1">
-              <h3>Producto 1</h3>
-              <p>Descripción del producto 1</p>
-              <span class="price">$9.99</span>
+              <img src="https://www.cyberpuerta.mx/img/product/XL/CP-ASUS-ROG-STRIX-RTX4090-O24G-GAMING-bcf1d1.png" alt="Product Image">
             </a>
-          </li>
-          <li>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">RTX 4090</h3>
+            <p class="product-price">$50.00</p>
+            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="product-button">Comprar</a>
+            <a href="#" class="product-button">Agregar al carrito</a>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="product-image">
             <a href="#">
-              <img src="product2.jpg" alt="Producto 2">
-              <h3>Producto 2</h3>
-              <p>Descripción del producto 2</p>
-              <span class="price">$19.99</span>
+              <img src="https://m.media-amazon.com/images/I/81QuOSSvYAS._AC_SL1500_.jpg" alt="Product Image">
             </a>
-          </li>
-          <li>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">RTX 3090</h3>
+            <p class="product-price">$50.00</p>
+            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="product-button">Comprar</a>
+            <a href="#" class="product-button">Agregar al carrito</a>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="product-image">
             <a href="#">
-              <img src="product3.jpg" alt="Producto 3">
-              <h3>Producto 3</h3>
-              <p>Descripción del producto 3</p>
-              <span class="price">$29.99</span>
+              <img src="https://doto.vtexassets.com/arquivos/ids/205475-800-auto?v=637898765583430000&width=800&height=auto&aspect=true" alt="Product Image">
             </a>
-          </li>
-        </ul>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">RTX 3080 ti</h3>
+            <p class="product-price">$50.00</p>
+            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="product-button">Comprar</a>
+            <a href="#" class="product-button">Agregar al carrito</a>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="product-image">
+            <a href="#">
+              <img src="https://m.media-amazon.com/images/I/61L5QgPvgqL.jpg" alt="Product Image">
+            </a>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">MacBook Pro 13</h3>
+            <p class="product-price">$38,198.00</p>
+            <p class="product-description">MacBook Pro de 13" es un portátil potente con una impresionante pantalla Retina, Touch Bar y hasta 10 horas de autonomía.</p>
+            <a href="#" class="product-button">Comprar</a>
+            <a href="#" class="product-button">Agregar al carrito</a>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="product-image">
+            <a href="#">
+              <img src="https://images.samsung.com/is/image/samsung/mx-odyssey-g9-lc49g95tsslxzx-frontwhite-255002396?$650_519_PNG$" alt="Imagen del producto">
+            </a>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Monitor curvo Samsung LC49HG90DMUXEN</h3>
+            <p class="product-price">$30,999.00 MXN</p>
+            <p class="product-description">Este monitor curvo de Samsung cuenta con una pantalla ultra ancha de 49 pulgadas, resolución de 3840x1080, y una tasa de refresco de 144 Hz. Además, es compatible con tecnología HDR, y cuenta con 2 puertos HDMI y un puerto DisplayPort.</p>
+            <a href="#" class="product-button">Comprar</a>
+            <a href="#" class="product-button">Agregar al carrito</a>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="product-image">
+            <a href="#">
+              <img src="https://ddtech.mx/assets/uploads/72de66269988bec4fec5f505ad7fc34d.jpg" alt="Imagen del producto">
+            </a>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Teclado mecánico Corsair K100 RGB</h3>
+            <p class="product-price">$4,499.00 MXN</p>
+            <p class="product-description">El teclado mecánico Corsair K100 RGB cuenta con interruptores ópticos Cherry MX Speed, una tasa de respuesta de 4.0ms, y una retroiluminación RGB programable. Además, cuenta con una conexión USB 3.0 passthrough y seis teclas macro programables.</p>
+            <a href="#" class="product-button">Comprar</a>
+            <a href="#" class="product-button">Agregar al carrito</a>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="product-image">
+            <a href="#">
+              <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/711nq1ijEIL._AC_UF350,350_QL80_.jpg" alt="Imagen del producto">
+            </a>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">SSD Kingston KC2000 1TB NVMe</h3>
+            <p class="product-price">$3,299.00 MXN</p>
+            <p class="product-description">Este SSD Kingston KC2000 de 1TB utiliza tecnología NVMe para ofrecer una velocidad de lectura de hasta 3500 MB/s y una velocidad de escritura de hasta 2900 MB/s. Además, es compatible con el cifrado de hardware AES de 256 bits y cuenta con una garantía limitada de 5 años.</p>
+            <a href="#" class="product-button">Comprar</a>
+            <a href="#" class="product-button">Agregar al carrito</a></a>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="product-image">
+            <a href="#">
+              <img src="https://xadmx.infosystem.com.pe/public/images/productos/YW6C61a76e59e5cb5.jpg" alt="Product Image">
+            </a>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Audífonos gamer HyperX Cloud II</h3>
+            <p class="product-price">$1,749.00 MXN</p>
+            <p class="product-description">Auriculares para videojuegos con sonido envolvente 7.1 y micrófono desmontable. Compatibles con PC, Mac, PS4, Xbox One, Nintendo Switch y dispositivos móviles.</p>
+            <a href="#" class="product-button">Comprar</a>
+            <a href="#" class="product-button">Agregar al carrito</a>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="product-image">
+            <a href="#">
+              <img src="https://m.media-amazon.com/images/I/61AcT0ZuO3L._AC_SS450_.jpg" alt="Product Image">
+            </a>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Mouse gamer Razer Basilisk V3</h3>
+            <p class="product-price">$2,599.00 MXN</p>
+            <p class="product-description">Mouse de juego con sensor óptico avanzado de 26.000 PPP, 11 botones programables y rueda de desplazamiento ajustable. Perfecto para FPS y juegos de MOBA.</p>
+            <a href="#" class="product-button">Comprar</a>
+            <a href="#" class="product-button">Agregar al carrito</a>
+          </div>
+        </div>
+        
+        <div class="product-container">
+          <div class="product-image">
+            <a href="#">
+              <img src="https://m.media-amazon.com/images/I/71niQiKL9lL._AC_SL1500_.jpg" alt="Product Image">
+            </a>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Teclado gamer Corsair K95 RGB Platinum XT</h3>
+            <p class="product-price">$5,299.00 MXN</p>
+            <p class="product-description">Teclado mecánico para juegos con retroiluminación RGB, interruptores Cherry MX Speed y 6 teclas macro programables. Incluye reposamuñecas de piel sintética.</p>
+            <a href="#" class="product-button">Comprar</a>
+            <a href="#" class="product-button">Agregar al carrito</a>
+          </div>
+        </div>
       </section>
-      <aside>
-        <h2>Categorías</h2>
-        <ul>
-          <li><a href="#">Categoría 1</a></li>
-          <li><a href="#">Categoría 2</a></li>
-          <li><a href="#">Categoría 3</a></li>
-          <li><a href="#">Categoría 4</a></li>
-        </ul>
-      </aside>
     </main>
     <footer>
-      <p>Team testosterona 2023 CH26</p>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Nosotros</h4>
+              <p>Somos un equipo apasionado por el desarrollo de software y la innovación tecnológica. Nos especializamos en soluciones personalizadas para empresas y startups.</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Contacto</h4>
+                <p>Dirección: 123 Calle Principal, Ciudad, País</p>
+                <p>Teléfono: +123 456 789</p>
+                <p>Correo electrónico: info@ejemplo.com</p>
+            </div>
+            <div class="col-md-4">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Derechos Reservados &copy; 2023 Team testosterona CH26</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

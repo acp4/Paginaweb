@@ -1,67 +1,103 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Electronics Shop</title>
+    <title>CH26 Shop</title>
     <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="stylesheet" href="./assets/style/navbar.css">
+    <link rel="stylesheet" href="./assets/style/producto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/img/compuico1.png">
   </head>
   <body>
     <header>
-      <h1>Electronics Shop</h1>
+      <h1>CH26 Shop</h1>
       <nav>
         <ul>
           <li><a href="./index.html">Inicio</a></li>
           <li><a href="tienda.html">Productos</a></li>
-          <li><a href="conatcto.html">Contacto</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="featured">
-        <h2>Productos Destacados</h2>
+        <h2 id="destacados">Productos Destacados</h2>
         <div class="product">
-          <img src="https://cdn1.smartprix.com/rx-iKJLpvWvy-w1200-h1200/KJLpvWvy.jpg" alt="Dell Alienware">
-          <h3>Producto 1</h3>
-          <p>$100.00</p>
-          <a href="#" class="button">Comprar</a>
+            <img src="https://cdn1.smartprix.com/rx-iKJLpvWvy-w1200-h1200/KJLpvWvy.jpg" alt="Dell Alienware">
+            <h3>Dell Alienware</h3>
+            <p>$100.00</p>
+            <a href="#" class="product-button">Comprar</a>
+            <a href="#" class="product-button">Agregar al carrito</a>
         </div>
         <div class="product">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1uicPMgKaAc8YsTZVCMpNT_rVmjVfBOcnoA&usqp=CAU" alt="Alienware Aurora">
-          <h3>Producto 2</h3>
+          <img src="https://m.media-amazon.com/images/I/71Jp27bTQoL._AC_SL1500_.jpg" alt="Alienware Aurora">
+          <h3>Alienware Aurora</h3>
           <p>$200.00</p>
-          <a href="#" class="button">Comprar</a>
+          <a href="#" class="product-button">Comprar</a>
+          <a href="#" class="product-button">Agregar al carrito</a>
         </div>
         <div class="product">
           <img src="https://www.intercompras.com/images/descriptions/101476_caratula4-960x623.jpg" alt="PC Gamer Alinware">
-          <h3>Producto 3</h3>
+          <h3>PC Gamer Alinware</h3>
           <p>$300.00</p>
-          <a href="#" class="button">Comprar</a>
+          <a href="#" class="product-button">Comprar</a>
+          <a href="#" class="product-button">Agregar al carrito</a>
         </div>
       </section>
       <section class="products">
-        <h2>Productos</h2>
+        <h2>Productos Nuevos</h2>
         <div class="product">
           <img src="https://images.pcel.com/1600/Computadoras-Laptops-DELL-AX17R2-Fi7165123060WW11s-123-430200-YfQZHsacjfadzPdk.jpg" alt="Alienware ">
-          <h3>Producto 4</h3>
+          <h3>Alienware</h3>
           <p>$400.00</p>
-          <a href="#" class="button">Comprar</a>
+          <a href="#" class="product-button">Comprar</a>
+          <a href="#" class="product-button">Agregar al carrito</a>
         </div>
         <div class="product">
           <img src="https://m.media-amazon.com/images/I/41KizRWLY7L.jpg" alt="Asus">
-          <h3>Producto 5</h3>
+          <h3>Asus</h3>
           <p>$500.00</p>
-          <a href="#" class="button">Comprar</a>
+          <a href="#" class="product-button">Comprar</a>
+          <a href="#" class="product-button">Agregar al carrito</a>
         </div>
         <div class="product">
           <img src="https://www.asus.com/media/Odin/Websites/global/ProductLine/20200824120814.jpg" alt="Asus ROG">
-          <h3>Producto 6</h3>
+          <h3>Asus ROG</h3>
           <p>$600.00</p>
-          <a href="#" class="button">Comprar</a>
+          <a href="#" class="product-button">Comprar</a>
+          <a href="#" class="product-button">Agregar al carrito</a>
         </div>
       </section>
     </main>
     <footer>
-      <p>Team testosterona 2023 CH26</p>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Nosotros</h4>
+              <p>Somos un equipo apasionado por el desarrollo de software y la innovación tecnológica. Nos especializamos en soluciones personalizadas para empresas y startups.</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Contacto</h4>
+                <p>Dirección: 123 Calle Principal, Ciudad, País</p>
+                <p>Teléfono: +123 456 789</p>
+                <p>Correo electrónico: info@ejemplo.com</p>
+            </div>
+            <div class="col-md-4">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Derechos Reservados &copy; 2023 Team testosterona CH26</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
