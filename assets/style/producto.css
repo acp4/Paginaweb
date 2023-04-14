@@ -1,3 +1,4 @@
+
 .product-container {
     display: flex;
     flex-direction: row;
@@ -41,8 +42,8 @@
   .product-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color:black;
-    color: #fff;
+    background-color: #050505;
+    color: #f3f1f1;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
