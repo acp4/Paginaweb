@@ -102,3 +102,9 @@ margin-right: 10px;
 margin-left: 10px;
 }
 }
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
